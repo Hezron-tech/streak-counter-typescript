@@ -54,3 +54,14 @@ ion-icon {
   h4,h5{
     text-align: center;
   }
+
+  .streak_display{
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+  }
+  .streaks{
+    border: 2px solid red;
+    padding: 20px;
+  }

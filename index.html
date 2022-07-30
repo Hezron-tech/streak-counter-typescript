@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Streak Counter</title>
     <link rel="stylesheet" href="index.css">
-    <script src="./dest/index.js"></script>
+
 </head>
 
 <body>
@@ -34,7 +34,7 @@
                 <ion-icon name="list-outline"></ion-icon>
                 <p>Add a todo here</p>
             </div>
-            <form>
+            <form id="form">
                 <h3>please fill in all details:</h3>
                 <button>Please Add A task</button>
                 <label>Task Name</label><br>
@@ -44,20 +44,32 @@
                 <label>Start Date</label><br>
                 <input type="date" id="task-date"><br>
 
-                <button class="btn" id="addTask">Add Task</button>
+                <button type="submit" class="btn" id="addTask">Add Task</button>
             </form>
         </div>
+
+
+
 
         <div class="section-three">
             <h4>activities</h4>
             <h5>you dont have any activities</h5>
-        </div>
+
+            <div class="streak_display">
+                <div class="streaks">
+                    <ion-icon name="accessibility-outline"></ion-icon>
+                    <p>23/02.03</p>
+                    <p>person</p>
+               </div>
+
+
+              </div>
 
 
 
     </div>
 
-
+    <script type="module" src="./dest/index.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
