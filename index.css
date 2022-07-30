@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.section-one{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #FB704D;
+    color: white;
+}
+.icon-img{
+   height: 150px; 
+}
