@@ -1,67 +1,134 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
+}
+.section-one {
+  display: block;
 }
 
-.section-one{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: #FB704D;
-    color: white;
-    display: none;
+.sec-one {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #fb704d;
+  color: white;
 }
+
 ion-icon {
-    font-size: 64px;
-  }
-  h3{
-    color: #FB704D;
-    font-size: 10px;
-  }
+  font-size: 64px;
+}
+h3 {
+  color: #fb704d;
+  font-size: 10px;
+}
+.sec-two {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+  padding-top: 20px;
+  height: 50vh;
+  background-color: #fb704d;
+}
+label {
+  color: #fb704d;
+  padding-top: 20px;
+}
+input {
+  width: 98%;
+}
 
-  .section-two{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    color: white;
-    padding-top: 20px;
-    background-color: #FB704D;
-    
-  }
-  label{
-    color: #FB704D;
-    padding-top: 20px;
-   
-  }
-  input{
-    width: 98%;
-   
-  }
+form {
+  background-color: white;
+  width: 250px;
+  font-size: 20px;
+}
 
-  form{
-    background-color: white;
-    width: 250px;
-    font-size: 20px;
-    
-   } 
+form button {
+  width: 100%;
+  background-color: #fb704d;
+  color: white;
+  font-weight: bold;
+}
+/* h4,
+h5 {
+  text-align: center;
+  display: none;
+} */
+
+.streak_display {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.streakdiv {
+  border: 2px solid red;
+  padding: 20px;
+  max-width: 15vw;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+/* .rotated {
+  -webkit-transform: rotate(15deg);
+  transform: rotate(15deg);
+} */
+
+.modal {
+  text-align: center;
+  padding: 30px;
+  top: 30%;
+   background-color: white; 
+   border: 2px solid black;
+  bottom: 0;
+  left: 30%;
+  right: 0;
+  /* z-index: 1; */
+  width: 30vw;
+  height: 40vh;
+  padding: 20px;
+  transform: translateY(-1px);
+  transition: opacity-transition;
+  align-items: center;
+  /* background-color: white; */
+  /* background: rgba(0, 0, 0, 0.7); */
+  position: absolute;
+  display: flex;
   
-  button{
-    width: 100%;
-    background-color: #FB704D;
-    color: white;
-    font-weight: bold;
-  }
-  h4,h5{
-    text-align: center;
-  }
+}
+/* .modal-wrapper {
+  width: 20%;
+  margin-top: 3rem;
+  height: auto;
+  background-color: white;
+  padding: 20px;
+} */
 
-  .streak_display{
-    display: flex;
-    justify-content: space-evenly;
-    
-    
-  }
-  .streaks{
-    border: 2px solid red;
-    padding: 20px;
-  }
+/* ion-icon {
+    color: blue;
+  } */
+
+.delete {
+  background-color: grey;
+  padding: 10px;
+}
+.close {
+  background-color: red;
+  padding: 10px;
+}
+
+.modal-wrapper p {
+  margin-top: 10px;
+}
+
+h6 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.car-name {
+  color: blue;
+}
+
